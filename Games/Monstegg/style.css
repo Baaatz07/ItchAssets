@@ -16,12 +16,12 @@
 }
 
 .custom-bg1 {
-    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG1.png");
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG1.png");
     z-index: -100;
 }
 
 .custom-bg2 {
-    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG2.png");
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG2.png");
     z-index: -99;
     animation: scrollPingpong 20s infinite ease-in-out;
 }
@@ -29,12 +29,12 @@
 
 
 .custom-bg3 {
-    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG3.png");
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG3.png");
     z-index: -98;
 }
 
 .custom-bg4 {
-    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG4.png");
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG4.png");
     z-index: -97;
 }
 
@@ -51,3 +51,5 @@
         transform: translateX(-25px);
     }
 }
+
+#wrapper{background:none;}
