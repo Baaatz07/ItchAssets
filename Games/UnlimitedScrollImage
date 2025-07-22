@@ -1,0 +1,19 @@
+.wrapper{
+    background: transparent !important;
+
+    top: 0 !important;
+    left: 0 !important;
+    height: 100% !important;
+    width: 100% !important;
+    background-repeat: repeat-y !important;
+    background-size: 100vw auto !important;
+
+    image-rendering: pixelated !important;
+    z-index: -1;
+}
+
+body, html {
+
+    position: relative;
+    margin: 0;
+}
