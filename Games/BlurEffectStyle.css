@@ -1,0 +1,30 @@
+.custom-BlurEffect {
+    position: relative;
+    font-weight: bold;
+    font-size: 70px;
+    top: 20px;
+padding-bottom:20px;
+    white-space: nowrap;
+    user-select: none;
+
+    display: flex;
+width: 10px;
+
+    transition: all 0.2s ease;
+}
+
+.custom-BlurEffect:hover span {
+  filter: blur(50px);
+  color:#17162800;
+}
+
+.custom-BlurEffect span {
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.custom-BlurEffect span:hover {
+    filter: none !important;
+  transform: scale(1.5);
+    color: #3dd3c4 !important;
+}
