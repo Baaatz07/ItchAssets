@@ -1,24 +1,6 @@
-@font-face {
-  font-family: 'BigPixel';
-  src: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/main/BigPixelFont.ttf') format('truetype');
-}
-
-.user_page_wrap * {
-  font-family: 'BigPixel', sans-serif !important;
-}
-
-
 html {
     position: relative;
     margin: 0;
-}
-
-body {
-  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Cursors/PointerTurquoise.png'), auto;
-}
-
-a, button, input, textarea, select, label {
-  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Cursors/HandTurquoise.png'), pointer !important;
 }
 
 
