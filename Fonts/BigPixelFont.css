@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'BigPixel';
+  src: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/main/Fonts/BigPixelFont.ttf') format('truetype');
+}
+
+.user_page_wrap * {
+  font-family: 'BigPixel', sans-serif !important;
+}
