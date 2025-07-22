@@ -1,0 +1,261 @@
+@font-face {
+  font-family: 'BigPixel';
+  src: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/main/BigPixelFont.ttf') format('truetype');
+}
+
+.user_page_wrap * {
+  font-family: 'BigPixel', sans-serif !important;
+}
+
+
+html {
+    position: relative;
+    margin: 0;
+}
+
+/* Standard-Cursor für alles */
+body {
+  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/CursorNormal.png'), auto;
+}
+
+/* Spezieller Cursor für interaktive Elemente */
+a, button, input, textarea, select, label {
+  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/CursorInteract.png'), pointer;
+}
+
+
+.custom-bg1,
+.custom-bg2,
+.custom-bg3,
+.custom-bg4 {
+    content: '';
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 101%;
+    width: 100%;
+    background-repeat: repeat-x;
+    background-size: auto 100%;
+    pointer-events: none;
+    image-rendering: pixelated;
+}
+
+.custom-bg1 {
+    background-image: url(https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/BG1.png);
+    z-index: -100;
+}
+
+.custom-bg2 {
+    background-image: url(https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/BG2.png);
+    height: 10%;
+    top: 15%;
+    left: 20%;
+    z-index: -99;
+    background-repeat: no-repeat;
+        filter: brightness(125%);
+}
+
+
+
+.custom-bg3 {
+    background-image: url(https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/BG3.png);
+    z-index: -98;
+    animation: scrollPingpong 20s infinite ease-in-out;
+}
+
+.custom-bg4 {
+    background-image: url(https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/BG4.png);
+    z-index: -97;
+    animation: scrollPingpong 30s infinite ease-in-out;
+}
+
+@keyframes scrollPingpong {
+    0% {
+        transform: translateX(-25px);
+    }
+
+    50% {
+        transform: translateX(25px);
+    }
+
+    100% {
+        transform: translateX(-25px);
+    }
+}
+
+
+.user_game_grid {
+    margin-top: 50px;
+    padding-bottom: 300px;
+}
+
+
+.user_page_wrap {
+    background: transparent;
+    background:
+        linear-gradient(to right, #171628 25px, transparent 175px),
+        linear-gradient(to left, #171628 25px, transparent 175px);
+    background-repeat: no-repeat;
+    background-size: 175px 100%, 175px 100%;
+    background-position: left top, right top;
+}
+
+.custom-text_header, .user_profile .text-center, .game_cell{
+    animation: fadein 1s ease-in-out alternate;
+}
+
+h1,
+.user_links,
+.game_cell,
+.custom-text-block {
+    text-align: center
+}
+
+.text_header,
+.link_group {
+    visibility: hidden;
+}
+
+
+.columns {
+    padding-top: 70px;
+}
+
+
+@keyframes fadein {
+    from {
+        opacity: 0
+    }
+}
+
+
+.game_grid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 40px 20px
+}
+
+
+
+.game_cell {
+    height: 395px;
+    filter: brightness(80%) grayscale(30%);
+    outline: 3px solid #ffffff33;
+    background-color: #00092477;
+    border-radius: 20px;
+    transform: translateY(5px);
+    box-shadow: 5px 5px 25px #000;
+    padding-bottom: 5px;
+    transition: transform .2s cubic-bezier(.175, .885, .32, 1.275), border-radius 0.25s, background-color 0.2s, transform 0.3s, filter 0.5s, box-shadow 0.25s, border 0.1s, backdrop-filter 0.1s;
+}
+
+
+.game_cell img {
+    border-radius: 20px;
+    background-color: transparent;
+    background: none;
+    transition: border-top-left-radius 0.25s, border-top-right-radius 0.25s;
+}
+
+.game_cell .game_thumb {
+    background-color: transparent !important;
+}
+
+.game_cell .game_title {
+        margin: 0 10px 0 10px;
+    font-size: 175% !important;
+    height: 63px;
+}
+
+.game_cell .game_title a {
+    margin: 0 auto !important;
+        color: #5cdd49 !important;
+        transition: color 0.2s;
+              text-decoration: none !important;
+
+}
+
+.game_cell .game_text {
+    width: 90%;
+    margin: 0 auto;
+    font-size: 90% !important;
+}
+
+.game_cell .game_genre {
+    font-size: 110% !important;
+    padding-top: 10px;
+    color: #3fa0a4  !important;
+}
+
+
+
+.game_cell .game_platform span {
+    margin: 0 auto !important;
+}
+
+
+@media (orientation: landscape) {
+    .game_cell:hover {
+        background-color: #00092466;
+        transform: translateY(-5px);
+        box-shadow: 0 0 25px 5px #dbd5d550;
+        border: 3px solid #fff;
+        border-radius: 35px;
+        filter: brightness(100%) grayscale(0%);
+        backdrop-filter: blur(10px);
+    }
+
+    .game_cell:hover img {
+        border-top-left-radius: 34px;
+        border-top-right-radius: 34px;
+    }
+
+    .game_cell:hover .game_title a {
+    color: #5da75d !important;
+      text-decoration: none !important;
+}
+}
+
+.carousel_wrapper {
+    padding: 10px;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.custom-name-jump {
+    position: absolute;
+    font-weight: bold;
+    font-size: 100px;
+    top: 50px;
+    white-space: nowrap;
+    transform-origin: center center;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    transition: all 0.2s ease;
+}
+
+.custom-name-jump:hover span {
+  filter: blur(50px);
+  color:#171628;
+}
+
+.custom-name-jump span {
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.custom-name-jump span:hover {
+    filter: none !important;
+  transform: scale(1.5);
+    color: #3dd3c4 !important;
+}
