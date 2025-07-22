@@ -1,0 +1,18 @@
+@media (orientation: landscape) {
+
+  .screenshot_list img {
+    border: solid 3px;
+    border-radius: 2px;
+    border-color: white;
+    transition: transform 0.25s, border 0.25s, border-radius 0.25s, margin-bottom 0.25s, border-color 0.1s;
+  }
+
+  .screenshot_list img:hover {
+    transform: scale(120%) translateX(-8%);
+    border: solid 5px white;
+    margin-bottom: 80px;
+    border-radius: 15px;
+    border-color: lightskyblue;
+  }
+
+}
