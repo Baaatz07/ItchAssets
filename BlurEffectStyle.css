@@ -1,0 +1,37 @@
+
+.custom-BlurEffect {
+    position: absolute;
+    font-weight: bold;
+    font-size: 100px;
+    top: 50px;
+    white-space: nowrap;
+    transform-origin: center center;
+    left: 50%;
+    transform: translateX(-50%);
+    user-select: none;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+
+    transition: all 0.2s ease;
+}
+
+.custom-BlurEffect:hover span {
+  filter: blur(50px);
+  color:#171628;
+}
+
+.custom-BlurEffect span {
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+
+.custom-BlurEffect span:hover {
+    filter: none !important;
+  transform: scale(1.5);
+    color: #3dd3c4 !important;
+}
+
+/*<div class="custom-name-jump">
+  <span>B</span><span>A</span><span>A</span><span>A</span><span>T</span><span>Z</span><span>0</span><span>7</span>
+</div>*/
