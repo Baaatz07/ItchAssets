@@ -41,12 +41,12 @@ a, button, input, textarea, select, label {
 }
 
 .custom-bg1 {
-    background-image: url(https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG1.png);
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG1.png");
     z-index: -100;
 }
 
 .custom-bg2 {
-    background-image: url(https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG2.png);
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG2.png");
     height: 10%;
     top: 15%;
     left: 20%;
@@ -58,13 +58,13 @@ a, button, input, textarea, select, label {
 
 
 .custom-bg3 {
-    background-image: url(https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG3.png);
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG3.png");
     z-index: -98;
     animation: scrollPingpong 20s infinite ease-in-out;
 }
 
 .custom-bg4 {
-    background-image: url(https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG4.png);
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/BG4.png");
     z-index: -97;
     animation: scrollPingpong 30s infinite ease-in-out;
 }
