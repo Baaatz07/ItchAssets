@@ -2,7 +2,8 @@
 .custom-bg1,
 .custom-bg2,
 .custom-bg3,
-.custom-bg4 {
+.custom-bg4,
+.custom-bg5 {
     content: '';
     position: fixed;
     top: 0;
@@ -27,15 +28,25 @@
 }
 
 
-
 .custom-bg3 {
-    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG3.png");
-    z-index: -98;
+    background:
+        linear-gradient(to right, #65bae3 25px, transparent 175px),
+        linear-gradient(to left, #65bae3 25px, transparent 175px);
+    background-repeat: no-repeat;
+    background-size: 175px 100%, 175px 100%;
+    background-position: left top, right top;
+        z-index: -98;
 }
 
+
 .custom-bg4 {
-    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG4.png");
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG3.png");
     z-index: -97;
+}
+
+.custom-bg5 {
+    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG4.png");
+    z-index: -96;
 }
 
 @keyframes scrollPingpong {
