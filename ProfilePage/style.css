@@ -14,11 +14,11 @@ html {
 }
 
 body {
-  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Cusrors/PointerTurquoise.png'), auto;
+  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Cursors/PointerTurquoise.png'), auto;
 }
 
 a, button, input, textarea, select, label {
-  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Cusrors/HandTurquoise.png'), pointer;
+  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Cursors/HandTurquoise.png'), pointer;
 }
 
 
