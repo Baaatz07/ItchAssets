@@ -18,7 +18,7 @@ body {
 }
 
 a, button, input, textarea, select, label {
-  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Cursors/HandTurquoise.png'), pointer;
+  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Cursors/HandTurquoise.png'), pointer !important;
 }
 
 
