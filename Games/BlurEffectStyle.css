@@ -10,7 +10,7 @@ padding-bottom:20px;
     display: flex;
 width: 10px;
 
-    transition: all 0.2s ease;
+    transition: all 0.1s ease;
 }
 
 .custom-BlurEffect:hover span {
