@@ -15,12 +15,12 @@ html {
 
 /* Standard-Cursor für alles */
 body {
-  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/CursorNormal.png'), auto;
+  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/CursorNormal.png'), auto;
 }
 
 /* Spezieller Cursor für interaktive Elemente */
 a, button, input, textarea, select, label {
-  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/CursorInteract.png'), pointer;
+  cursor: url('https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/ProfilePage/CursorInteract.png'), pointer;
 }
 
 
