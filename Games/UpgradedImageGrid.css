@@ -1,4 +1,4 @@
-@media (orientation: landscape) {
+@media (min-width: 1001px) {
 
   .screenshot_list img {
     border: solid 3px;
