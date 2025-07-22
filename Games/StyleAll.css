@@ -1,8 +1,9 @@
 #game_drop{
-border-radius: 10px !important;
+  border-radius: 10px !important;
 }
 
 .game_frame{
+  border-radius: 10px !important;
   background: #11111122;
   box-shadow: 0 10px 25px 1px black !important;
 }
