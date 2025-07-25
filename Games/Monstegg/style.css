@@ -6,12 +6,12 @@
 .custom-bg5 {
     content: '';
     position: fixed;
-    top: 0;
+    bottom: 0;
     left: 0;
-    height: 101%;
+    height: 101vh;
     width: 100%;
     background-repeat: repeat-x;
-    background-size: auto 100%;
+    background-size: auto 100vh;
     pointer-events: none;
     image-rendering: pixelated;
 }
