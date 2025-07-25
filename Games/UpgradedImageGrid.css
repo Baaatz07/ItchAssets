@@ -14,3 +14,15 @@
     border-color: lightskyblue;
   }
 }
+
+@media (max-width: 1000px) {
+  .screenshot_list{
+    border: solid 4px white;
+    border-radius: 10px;
+  }
+  .screenshot_list img {
+    border-left: 2px solid;
+    border-right: 2px solid;
+    border-color: white;
+  }
+}
