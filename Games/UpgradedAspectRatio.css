@@ -30,10 +30,6 @@
 
 @media (min-aspect-ratio: 2/1) {
   /* höhe greift */
-  .wrapper{
-    background-color: green !important;
-  }
-
   .game_frame {
     width: calc(80vh * 2 ) !important; 
     height: 80vh !important;
@@ -42,10 +38,6 @@
 
 @media (max-aspect-ratio: 2/1) {
   /* breite greift */
-  .wrapper{
-    background-color: red !important;
-  }
-
   .game_frame {
     width: 80vw !important; 
     height: calc(80vw / 2 ) !important;
