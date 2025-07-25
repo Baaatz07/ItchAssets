@@ -23,7 +23,8 @@
   }
   
   .right_col {
-    margin-left: 8vw !important; 
+    margin-left: 10vw !important; 
+    margin-right: 10vw !important; 
   }
 }
 
