@@ -17,8 +17,10 @@
 }
 
 .custom-bg1 {
-    background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG1.png");
+   /* background-image: url("https://raw.githubusercontent.com/Baaatz07/ItchAssets/refs/heads/main/Games/Monstegg/BG1.png");*/
     z-index: -100;
+    background-color: #65BAE3;
+  /*  height: 200vh;*/
 }
 
 .custom-bg2 {
