@@ -9,7 +9,7 @@ This repository contains a collection of custom CSS snippets designed to enhance
   <li>An example of a parallax-like background effect</li>
   <li>An example using a custom font and cursor</li>
   <li>A completely redesigned profile page</li>
-  <li>... and su much more</li>
+  <li>... and so much more</li>
 </ul>
 
 <h1>Usage</h1>
